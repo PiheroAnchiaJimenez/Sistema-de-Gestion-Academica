@@ -24,14 +24,14 @@ public static void main(String [] args) {
              "Darling",
                "123",
                direccion1,
-              "Ingeniería");
+              "Ingenieria");
     
     Docente docente =
             new Docente(
             "Andres",
             "456",
             direccion2,
-            "Programación");
+            "Programacion");
     
     //Lista polimórfica
     
