@@ -77,6 +77,25 @@ public abstract class Persona {
         );
 
     }
+    
+    //validaciones y excepcion personalizada
+    public static void validarDatos(
+        String nombre,
+        String identificacion
+) throws DatoInvalidoException {
+
+    if(nombre == null || nombre.trim().isEmpty()){
+        throw new DatoInvalidoException(
+                "El nombre no puede estar vacio"
+        );
+    }
+
+    if(identificacion == null || identificacion.trim().isEmpty()){
+        throw new DatoInvalidoException(
+                "La identificacion no puede estar vacia"
+        );
+    }
+}
 
     // Metodo abstracto de describirRol
     public abstract void describirRol();
