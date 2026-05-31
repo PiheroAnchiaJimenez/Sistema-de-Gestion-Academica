@@ -9,7 +9,7 @@ package modelo;
  * @author pette
  */
 //** Estudiante hereda de Persona */
-public class Estudiante extends Persona{
+public class Estudiante extends Persona implements Evaluable{
 
     //** Carrera del estudiante */
     private String carrera;
@@ -50,6 +50,11 @@ public class Estudiante extends Persona{
                 "Hola!, soy un estudiante de " + carrera
         );
 
+    }
+
+    @Override
+    public void evaluar() {
+        System.out.println("Evaluando estudiante");
     }
 
 }
