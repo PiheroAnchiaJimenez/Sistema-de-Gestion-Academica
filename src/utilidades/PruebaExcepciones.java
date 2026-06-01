@@ -8,7 +8,7 @@ import modelo.DatoInvalidoException;
 
 /**
  *
- * @author jpiru
+ * @author Crisly
  * /*
 Jerarquía básica de excepciones en Java:
 

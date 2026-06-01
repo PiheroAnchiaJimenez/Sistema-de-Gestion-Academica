@@ -4,7 +4,7 @@ import modelo.DatoInvalidoException;
 
 /**
  *
- * @author jpiru
+ * @author Crisly
  */
 public class Validador {
 

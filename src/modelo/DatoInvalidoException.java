@@ -6,7 +6,7 @@ package modelo;
 
 /**
  *
- * @author jpiru
+ * @author Crisly
  */
 public class DatoInvalidoException extends Exception {
     public DatoInvalidoException(String mensaje) {
